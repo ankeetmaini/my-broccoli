@@ -15,4 +15,4 @@ var css = concat('styles', {
 });
 
 // exporting both JS tree and css as well
-module.exports = mergeTrees([javascripts, css]);
+module.exports = mergeTrees([javascripts, css, 'public']);
